@@ -1,0 +1,46 @@
+﻿# Vivado generated artifacts
+*.jou
+*.log
+*.rpt
+*.str
+*.dcp
+*.wdb
+*.xml
+*.html
+*.rpx
+*.rsg
+
+# Output images/bitstreams/ELFs/handoff
+*.bit
+*.bin
+*.mcs
+*.ltx
+*.elf
+*.mmi
+*.xsa
+
+# Vivado project internals
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.Xil/
+.ipcache/
+.tcl.runs/
+NA/.Xil/
+
+# Ignore Vivado-managed copies if you keep your own src/ tree
+project.srcs/
+
+# Optional: ignore GUI project file if using TCL-only builds
+# *.xpr
+
+# IDE/OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
