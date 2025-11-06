@@ -1,4 +1,4 @@
-# SPEC-1-RISC-V Basys3 Single-Cycle Core
+# RISC-V Single-Cycle Core on Basys-3
 
 ## Background
 
@@ -11,13 +11,11 @@ This project implements a **single-cycle RV32I** RISC‑V processor on the **Dig
 * **Datapath highlights**: 32‑bit main ALU; separate adders for `PC+4` and `PC+Imm`; `pcMUX` selects among sequential, branch, JAL, and JALR targets in a single cycle.
 * **Status**: Timing closes with positive slack at 70 MHz in Vivado; power dominated by MMCM per tool report.
 
-> Screenshots in the repo (block diagram, clock summary, power, timing) should be placed under `docs/` and referenced from later sections.
-
 **Reference used while building this core**
 
 * *Digital Design and Computer Architecture: RISC‑V Edition* by Sarah L. Harris and David Money Harris.
 
-![Book Cover](docs/book-cover.jpg)
+![Book Cover](docs/book_cover.png)
 
 ### Architecture Overview
 
@@ -25,14 +23,11 @@ This project implements a **single-cycle RV32I** RISC‑V processor on the **Dig
 
 ---
 
-## Artifacts & Screenshots (Repo Paths)
-
-Place these files under the `docs/` folder and the links below will work directly on GitHub:
+## Artifacts
 
 * **RTL Schematic** → [`docs/RTL_Schematic.png`](docs/RTL_Schematic.png)
 * **Clocking Wizard Summary** → [`docs/clock_summary.png`](docs/clock_summary.png)
 * **Timing Summary** → [`docs/timing.png`](docs/timing.png)
 * **Power Report** → [`docs/power_summary.png`](docs/power_summary.png)
-* **Book Cover** → [`docs/book_cover.png`] (docs/book_cover.png)
 
 
